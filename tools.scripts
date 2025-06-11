@@ -1,9 +1,9 @@
 #!name=脚本工具合集
 #!desc=节点检测、地理位置、节点解锁、节点网速等查询。详细见脚本
-#!author=
+#!note=脚本链接放在[Remote Script]之下
 #!homepage=https://github.com/fmz200/wool_scripts
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/NaiSi_01.png
-#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/script/tools.scripts
+#!raw-url=https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/heads/main/tools.scripts
 #!date=2025-10-21 19:00:00
 #############################################
 
@@ -13,5 +13,5 @@ generic script-path=https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/h
 generic script-path=https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/heads/main/Net_Speedlite.js, tag=网络延迟测试, timeout=10,img-url=bolt.system
 generic script-path=https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/heads/main/ipapi2.js, timeout=10, tag=测试位置查询, img-url=location.circle
 generic script-path=https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/heads/main/generic_example.js, timeout=10, tag=GeoLocation, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ipInfo.png
-generic script-path = https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/heads/main/LocationDetection.js, timeout = 10, tag = 地理位置查询, img-url = location.circle.system
-generic script-path = https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/heads/main/NodeUnlockDetection.js, timeout = 20, tag = 节点解锁查询, img-url = play.circle.system
+generic script-path=https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/heads/main/LocationDetection.js, timeout = 10, tag = 地理位置查询, img-url = location.circle.system
+generic script-path=https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/heads/main/NodeUnlockDetection.js, timeout = 20, tag = 节点解锁查询, img-url = play.circle.system
