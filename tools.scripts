@@ -1,5 +1,6 @@
 #!name=脚本工具合集
 #!desc=节点检测、地理位置、节点解锁、节点网速等查询。详细见脚本
+#!nameID=ChatGPT，Spotify，check，Net_Speedlite，ipapi2，generic_example，LocationDetection，NodeUnlockDetection
 #!note=脚本链接放在[Remote Script]之下
 #!homepage=https://github.com/fmz200/wool_scripts
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/NaiSi_01.png
