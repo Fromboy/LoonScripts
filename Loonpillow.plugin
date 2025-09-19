@@ -7,9 +7,7 @@
 
 
 [Script]
-
-http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) requires-body=1 ,script-path=https://raw.githubusercontent.com/Fromboy/LoonScripts/refs/heads/main/Loonpillow.js
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/Fromboy/LoonScripts/main/Loonpillow.js, requires-body=true, timeout=30, tag=PillowUnlock
 
 [MITM]
-
 hostname = api.revenuecat.com
